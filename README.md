@@ -1,4 +1,4 @@
-# Processamento-Gr-fico---Curvas-de-Bezier-Alternadas
+# Processamento-Grafico---Curvas-de-Bezier-Alternadas
 Projeto 1 da cadeira de Processamento Gráfico - 2016.2    |
 Tema: Curvas de Bézier Alternadas			  |
 Aluno: Gabriel Vinícius Melo Gonçalves da Silva		  |
