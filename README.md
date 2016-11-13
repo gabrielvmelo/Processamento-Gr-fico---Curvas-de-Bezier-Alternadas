@@ -1,2 +1,14 @@
 # Processamento-Gr-fico---Curvas-de-Bezier-Alternadas
-Descrição: o usuário entra via mouse com os pontos de controle de curva(s) de Bézier. O número de pontos de controle é arbitrário, sem limite. O sistema desenha a curva correspondente.   O usuário pode modificar o posicionamento dos pontos, deletar e inserir pontos, e o sistema responder em tempo real de forma adequada, reconstruindo a curva correspondente. O sistema então desenha a curva de Bézier alternada (numa cor diferente): é uma curva cujos pontos de controle são, na seguinte ordem: b1, b0, b3, b2, b5, b4,...,bn, bn-1. Se n for par, o último ponto não alterna com nenhum outro. O usuário poderá suprimir os pontos de controle, a poligonal de controle, e os pontos da curva. O usuário também poderá determinar o número de avaliações que deverá ser usado para então o sistema calcular os correspondentes pontos da(s) curva e ligá-los por retas. As avaliações deverão ser feitas obrigatoriamente com o Algoritmo de De Casteljau.
+Projeto 1 da cadeira de Processamento Gráfico - 2016.2    |
+Tema: Curvas de Bézier Alternadas			  |
+Aluno: Gabriel Vinícius Melo Gonçalves da Silva		  |
+CPF: 113.471.774-18					  |
+----------------------------------------------------------
+
+*Funcionamento da Aplicação
+
+- Gerar Curva: informar a aplicação os pontos de controle, clicando com o mouse na tela.
+- Remover ponto: clique duplo sobre o ponto que deseja remover.
+- Gerar Curva Alternada: pressionar a tecla "ENTER".
+- Gerar malha com t = 1/2:* pressionar a tecla "X".
+* a geração da malha ajuda a verificar a corretude da curva gerada.
